@@ -4,7 +4,7 @@
 estacionamento = []
 contador = 1  
 
-while contador <= 4: # while para ter 10 entradas de carro no estacionamento 
+while contador <= 10: # while para ter 10 entradas de carro no estacionamento 
     modelo = input(f"Digite o nome do carro: ")
     estacionamento.append(modelo)  # Adiciona no final 
     contador += 1 
